@@ -2,7 +2,7 @@
 **Snehal Awalekar, Bhavna Gupta, Abhilash Chaudhary**
 
 ## Objective
-The objective of this project is to develop a **microservices-based Hospital Management System** that streamlines key hospital functions such as patient registration, appointment scheduling, billing, and doctor-patient communication. Leveraging a client-server architecture, each service operates independently for scalability and modularity. Containerized using **Docker** and orchestrated via **Docker Compose**, the system is designed for efficient data handling, seamless scaling, and high availability. With cloud connectivity for real-time collaboration, this innovative solution enhances operational efficiency and patient care, setting a new standard for modern healthcare systems.
+The project aims to develop a **microservices-based Hospital Management System** that streamlines key functions like patient registration, appointment scheduling, and billing. Using Docker for containerization and Docker Compose for orchestration, the system ensures scalability, modularity, and real-time cloud connectivity to enhance operational efficiency and patient care in modern healthcare settings.
 
 ## Features
 - **Doctor Service**: Manage doctor information, including specialties, availability, and updates.
@@ -53,7 +53,3 @@ The **Hospital Management System** is structured as independent microservices th
 ## Scalability and Upcoming Improvements
 - **Horizontal scaling**: To accommodate increasing workloads, each service can be scaled separately.
 - **Security Enhancements**: To improve security, include authorization and authentication methods (like OAuth).
-
-## Conclusion
-This project demonstrates a modular and scalable approach to hospital management, leveraging the power of microservices architecture, **Docker**, and **Flask** for improved patient care and operational efficiency.
-
