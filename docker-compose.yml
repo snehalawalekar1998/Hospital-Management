@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  patient-service:
+    image: patient-service:latest
+    container_name: patient_service
+    ports:
+      - "5001:5001"
+    networks:
+      - hospital-network
+
+  doctor-service:
+    image: doctor-service:latest
+    container_name: doctor_service
+    ports:
+      - "5002:5002"
+    networks:
+      - hospital-network
+
+  appointment-service:
+    image: appointment-service:latest
+    container_name: appointment_service
+    ports:
+      - "5003:5003"
+    networks:
+      - hospital-network
+
+  billing-service:
+    image: billing-service:latest
+    container_name: billing_service
+    ports:
+      - "5004:5004"
+    networks:
+      - hospital-network
+
+  notification-service:
+    image: notification-service:latest
+    container_name: notification_service
+    ports:
+      - "5005:5005"
+    networks:
+      - hospital-network
+
+networks:
+  hospital-network:
+    driver: bridge
