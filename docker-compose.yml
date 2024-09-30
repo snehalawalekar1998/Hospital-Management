@@ -33,14 +33,6 @@ services:
     networks:
       - hospital-network
 
-  notification-service:
-    image: notification-service:latest
-    container_name: notification_service
-    ports:
-      - "5005:5005"
-    networks:
-      - hospital-network
-
 networks:
   hospital-network:
     driver: bridge
