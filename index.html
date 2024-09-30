@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Project-image.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 3em;
+            text-align: center;
+        }
+        .tabs {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .tab-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .tab {
+            flex: 1;
+            padding: 30px;
+            margin: 0 10px; /* Slight margin between tabs */
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9); /* Light white */
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1.5em;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            color: #333; /* Dark text color for contrast */
+        }
+        .tab:hover {
+            background-color: rgba(255, 192, 203, 0.9); /* Light pink on hover */
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hospital Management</h1>
+
+<div class="tabs">
+    <div class="tab-row">
+        <div class="tab" onclick="window.location.href='http://35.243.172.10:5001/'">Patient Service</div>
+        <div class="tab" onclick="window.location.href='http://35.243.172.10:5002/'">Doctor Service</div>
+    </div>
+    <div class="tab-row">
+        <div class="tab" onclick="window.location.href='http://35.243.172.10:5003/'">Appointment Service</div>
+        <div class="tab" onclick="window.location.href='http://35.243.172.10:5004/'">Billing Service</div>
+    </div>
+</div>
+
+</body>
+</html>
