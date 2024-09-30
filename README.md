@@ -1,8 +1,9 @@
 # Microservices Platform for Hospital Solutions
 **Snehal Awalekar, Bhavna Gupta, Abhilash Chaudhary**
 
-## Objective
-The project aims to develop a **microservices-based Hospital Management System** that streamlines key functions like patient registration, appointment scheduling, and billing. Using Docker for containerization and Docker Compose for orchestration, the system ensures scalability, modularity, and real-time cloud connectivity to enhance operational efficiency and patient care in modern healthcare settings.
+## Inroduction
+The project aims to develop a **microservices-based Hospital Management System** that streamlines key functions like patient registration, appointment scheduling, and billing. 
+Using Docker for containerization and Docker Compose for orchestration, the system ensures scalability, modularity, and real-time cloud connectivity to enhance operational efficiency and patient care in modern healthcare settings.
 
 ## Features
 - **Doctor Service**: Manage doctor information, including specialties, availability, and updates.
